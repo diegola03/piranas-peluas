@@ -8,13 +8,13 @@ export const site = {
   // Frase corta debajo del logo en el hero
   tagline: "El grupo más pelú",
   // Sub-frase chistosa
-  subtagline: "Desde el principio de los tiempos · 100% peluo, 0% serio",
+  subtagline: "Desde el principio de los tiempos · 100% pelú, 0% serio",
 
   // Texto de "Quiénes somos" (el lore de la crew). EDIT ME.
   manifesto: [
     "No somos un grupo. Somos una institución.",
     "Las Pirañas Peluas nacieron de noches que nadie recuerda bien y de viajes que todos cuentan distinto. Mordemos primero y preguntamos después.",
-    "Esto es la casa: la crew, los recuerdos y el próximo viaje. Bienvenido al cardumen más peluo de la isla.",
+    "Esto es la casa: la crew, los recuerdos y el próximo viaje. Bienvenido al cardumen más pelú de la isla.",
   ],
 
   // Año del footer (se calcula solo, pero puedes fijarlo aquí)

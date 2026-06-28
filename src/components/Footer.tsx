@@ -15,7 +15,7 @@ export default function Footer() {
       </p>
       <p className="mt-2 font-sans text-xs text-bone/40">{site.footerLine}</p>
       <p className="mt-4 font-sans text-xs text-bone/30">
-        © {site.foundedYear}–{year} · El cardumen más peluo de la isla
+        © {site.foundedYear}–{year} · El cardumen más pelú de la isla
       </p>
     </footer>
   );

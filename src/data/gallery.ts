@@ -58,7 +58,7 @@ export const gallery: Shot[] = [
   {
     id: "g8",
     src: "/assets/piranas-peluas-style-01.png",
-    caption: "Estilo peluo, edición especial",
+    caption: "Estilo pelú, edición especial",
     tag: "crew",
   },
 ];
