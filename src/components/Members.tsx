@@ -39,7 +39,7 @@ function Card({ m }: { m: Member }) {
 export default function Members() {
   return (
     <section id="crew" className="mx-auto max-w-6xl px-5 py-24">
-      <SectionTitle kicker="El cardumen" title="La Crew" />
+      <SectionTitle kicker="El cardumen" title="El Crew" />
       <div className="grid grid-cols-2 gap-5 sm:grid-cols-3 lg:grid-cols-3">
         {members.map((m) => (
           <Card key={m.id} m={m} />

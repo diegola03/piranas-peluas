@@ -23,7 +23,7 @@ export const site = {
   // Links del nav (anclas a las secciones)
   nav: [
     { label: "Quiénes somos", href: "#quienes-somos" },
-    { label: "La Crew", href: "#crew" },
+    { label: "El Crew", href: "#crew" },
     { label: "Galería", href: "#galeria" },
     { label: "Viajes", href: "#eventos" },
   ],
