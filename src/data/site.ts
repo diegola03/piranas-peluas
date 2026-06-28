@@ -6,7 +6,7 @@
 export const site = {
   name: "Las Pirañas Peluas",
   // Frase corta debajo del logo en el hero
-  tagline: "El grupo más peluo",
+  tagline: "El grupo más pelú",
   // Sub-frase chistosa
   subtagline: "Desde el principio de los tiempos · 100% peluo, 0% serio",
 
