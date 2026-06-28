@@ -1,5 +1,6 @@
 import { ChevronDown } from "lucide-react";
 import { site } from "../data/site";
+import { asset } from "../lib/asset";
 
 export default function Hero() {
   return (
@@ -9,14 +10,14 @@ export default function Hero() {
     >
       {/* Mascot render */}
       <img
-        src="/assets/piranas-peluas-hyper-real-01.png"
+        src={asset("/assets/piranas-peluas-hyper-real-01.png")}
         alt="Las Pirañas Peluas"
         className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-40"
       />
       {/* Gold-foil wash + vignette */}
       <div
         className="absolute inset-0 opacity-20 mix-blend-overlay"
-        style={{ backgroundImage: "url(/assets/gold-texture-golden-gold-background.jpg)", backgroundSize: "cover" }}
+        style={{ backgroundImage: `url(${asset("/assets/gold-texture-golden-gold-background.jpg")})`, backgroundSize: "cover" }}
       />
       <div className="vignette absolute inset-0" />
       <div className="gold-dust absolute inset-0 opacity-60" />

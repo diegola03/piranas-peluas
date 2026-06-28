@@ -2,6 +2,7 @@ import { MapPin, Users } from "lucide-react";
 import { events } from "../data/events";
 import SectionTitle from "./SectionTitle";
 import Countdown from "./Countdown";
+import { asset } from "../lib/asset";
 
 const fmt = (iso: string) =>
   new Date(iso).toLocaleDateString("es-PR", {
@@ -22,7 +23,7 @@ export default function Events() {
         <div className="reveal relative mb-16 overflow-hidden rounded-2xl border border-gold/25 bg-coal/50 p-8 text-center sm:p-12">
           {next.cover && (
             <img
-              src={next.cover}
+              src={asset(next.cover)}
               alt=""
               className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-15"
             />

@@ -1,11 +1,12 @@
 import { site } from "../data/site";
+import { asset } from "../lib/asset";
 
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
     <footer className="border-t border-gold/15 px-5 py-12 text-center">
       <img
-        src="/assets/piranha-icon.jpg"
+        src={asset("/assets/piranha-icon.jpg")}
         alt=""
         className="mx-auto mb-4 h-12 w-12 rounded-full border border-gold/30 object-cover"
       />

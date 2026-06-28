@@ -3,6 +3,7 @@ import type { Shot } from "../data/gallery";
 import { gallery } from "../data/gallery";
 import SectionTitle from "./SectionTitle";
 import Lightbox from "./Lightbox";
+import { asset } from "../lib/asset";
 
 export default function Gallery() {
   const [active, setActive] = useState<Shot | null>(null);
@@ -20,7 +21,7 @@ export default function Gallery() {
             className="group relative block w-full break-inside-avoid overflow-hidden rounded-lg border border-gold/15 bg-coal/50 transition-all duration-300 hover:border-gold/45 hover:shadow-gold-glow"
           >
             <img
-              src={shot.src}
+              src={asset(shot.src)}
               alt={shot.caption}
               loading="lazy"
               className="w-full object-cover transition-transform duration-500 group-hover:scale-[1.04]"

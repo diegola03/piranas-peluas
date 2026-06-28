@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { X } from "lucide-react";
 import type { Shot } from "../data/gallery";
+import { asset } from "../lib/asset";
 
 type Props = {
   shot: Shot | null;
@@ -41,7 +42,7 @@ export default function Lightbox({ shot, onClose }: Props) {
         onClick={(e) => e.stopPropagation()}
       >
         <img
-          src={shot.src}
+          src={asset(shot.src)}
           alt={shot.caption}
           className="max-h-[80vh] w-auto rounded-lg border border-gold/20 object-contain"
         />
